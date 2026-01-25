@@ -40,3 +40,62 @@
 .read-the-docs {
   color: #888;
 }
+
+.app-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: inherit;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: inherit;
+  color: inherit;
+}
+
+.app-container h1 {
+  margin-bottom: 10px;
+  color: inherit; 
+}
+
+.county-label {
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: inherit; 
+}
+
+.issue-slider {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.issue-slider input[type="range"] {
+  margin-top: 8px;
+  width: 100%;
+  accent-color: #646cff; 
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #1a1a1a; 
+  color: rgba(255, 255, 255, 0.87);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+button:disabled {
+  background-color: #555; 
+  cursor: not-allowed;
+}
+
+button:not(:disabled):hover {
+  border-color: #646cff; 
+}
